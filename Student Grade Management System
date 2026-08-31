@@ -1,0 +1,132 @@
+# Student Grade Management System
+
+## 📌 Project Description
+
+The **Student Grade Management System** is a Java-based console application designed to input, manage, and analyze student grades.
+
+The program uses **ArrayList** to store student names and grades. It calculates the **average, highest, and lowest scores** and displays a complete summary report of all students.
+
+## 🎯 Objectives
+
+* Input student names and grades.
+* Store and manage student data using `ArrayList`.
+* Calculate the average score of all students.
+* Find the highest score and the student who achieved it.
+* Find the lowest score and the student who achieved it.
+* Display Pass/Fail status for each student.
+* Generate a summary report through a console-based interface.
+
+## 🛠️ Technologies Used
+
+* **Programming Language:** Java
+* **Data Structure:** ArrayList
+* **Interface:** Console-based
+* **IDE:** VS Code / IntelliJ IDEA / Eclipse
+
+## ⚙️ Features
+
+1. **Student Data Input**
+   Users can enter the name and grade of each student.
+
+2. **Grade Validation**
+   Grades are accepted only between `0` and `100`.
+
+3. **Average Calculation**
+   The program calculates the average grade of all students.
+
+4. **Highest Score**
+   Displays the highest grade along with the student's name.
+
+5. **Lowest Score**
+   Displays the lowest grade along with the student's name.
+
+6. **Pass/Fail Status**
+   Students scoring `40` or above are marked as **PASS**, otherwise **FAIL**.
+
+7. **Summary Report**
+   Displays all students, their grades, status, average score, highest score, and lowest score.
+
+## ▶️ How to Run
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Student-Grade-Management-System.git
+```
+
+### Step 2: Open the Project
+
+Open the project in any Java-supported IDE such as VS Code, IntelliJ IDEA, or Eclipse.
+
+### Step 3: Compile the Program
+
+```bash
+javac StudentGradeManager.java
+```
+
+### Step 4: Run the Program
+
+```bash
+java StudentGradeManager
+```
+
+## 📊 Sample Output
+
+```text
+==========================================
+      STUDENT GRADE MANAGEMENT SYSTEM
+==========================================
+
+Enter number of students: 4
+
+Enter details for Student 1
+Enter student name: Rahul
+Enter grade (0 - 100): 85
+
+Enter details for Student 2
+Enter student name: Aman
+Enter grade (0 - 100): 72
+
+Enter details for Student 3
+Enter student name: Priya
+Enter grade (0 - 100): 91
+
+Enter details for Student 4
+Enter student name: Neha
+Enter grade (0 - 100): 65
+
+==========================================
+           STUDENT SUMMARY REPORT
+==========================================
+
+Student Name         Grade      Status
+------------------------------------------
+Rahul                85.00      PASS
+Aman                 72.00      PASS
+Priya                91.00      PASS
+Neha                 65.00      PASS
+------------------------------------------
+Average Score       : 78.25
+Highest Score       : 91.00 (Priya)
+Lowest Score        : 65.00 (Neha)
+==========================================
+```
+
+## 📁 Project Structure
+
+```text
+Student-Grade-Management-System/
+│
+├── StudentGradeManager.java
+└── README.md
+```
+
+## 📝 Conclusion
+
+This project demonstrates the use of **Java, classes, ArrayList, loops, conditional statements, user input, and basic data processing** to build a simple Student Grade Management System.
+
+---
+
+**Project:** Student Grade Management System
+**Language:** Java
+**Interface:** Console-Based
